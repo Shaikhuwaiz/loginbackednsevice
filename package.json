@@ -1,27 +1,19 @@
 {
-  "name": "login",
+  "name": "login-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Login backend with React build",
+  "main": "server.cjs",
   "scripts": {
-    "start": "node server.cjs",
-    "dev": "nodemon server.cjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.cjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0",
     "mongoose": "^8.18.1"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.13",
-    "nodemon": "^3.0.1"
-  }
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
